@@ -1,0 +1,6 @@
+[submodule "GSSL/extern/emmi"]
+	path = GSSL/extern/emmi
+	url = https://github.com/variational-sublinear-clustering/emmi.git
+[submodule "GSSL/extern/vamm"]
+	path = GSSL/extern/vamm
+	url = https://github.com/variational-sublinear-clustering/vamm.git
