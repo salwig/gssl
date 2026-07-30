@@ -85,5 +85,5 @@ class KMeans:
                 "time": dt / N_iter,
             }
         )
-        log["objective"].values[-1] = obj
+        log.loc[log.index[-1], "objective"] = obj
         return obj, log
